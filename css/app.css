@@ -1,0 +1,142 @@
+/*General*/
+.container {
+ 	font-family: 'Cutive Mono', monospace;
+ 	max-width: 50rem;
+}
+
+
+.container-footer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Posts*/
+.post {
+ 	padding-top: 3em;
+}
+
+/*Headers*/ 
+.jumbotron {
+	margin: 0;
+	font-family: 'Cutive Mono', monospace;
+	background-color: white;
+	color: #212529;
+}
+
+@media (max-width: 400px) {
+    .display-3 {
+        font-size: 3.0rem;
+    }
+}
+
+/*Navigation*/
+.navbar {
+    font-family: 'Cutive Mono', monospace;
+}
+
+/*Projects*/
+.projects {
+	margin-top: 3em;
+}
+
+#project {
+	padding-top: 3em;
+}
+
+.m-b-0 {
+    margin-bottom: 0 !important;
+}
+
+.panel-profile .panel-heading {
+    height: 150px;
+    background-size: cover;
+}
+/*
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}*/
+
+.panel-default{
+    border-color: #ddd;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.panel-body {
+    padding: 15px;
+    border: solid 1px #ddd;
+    border-radius: 3px;
+}
+
+.panel-profile-img {
+    max-width: 100px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+
+.panel-profile .panel-title {
+    margin-bottom: 5px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h5 {
+    margin: 6px 0;
+}
+
+.m-b {
+    margin-bottom: 15px !important;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+/*Pie de pagina*/
+
+body section .creditos .footer {
+    background-color: #212529;
+    color: white;
+}
+
+.text-muted a {
+    color: white;
+}
